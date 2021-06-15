@@ -9,5 +9,18 @@
         android:id="@+id/dashBoardHomeFragment"
         android:name="com.example.restaurant.DashBoardHomeFragment"
         android:label="fragment_dash_board_home"
-        tools:layout="@layout/fragment_dash_board_home" />
+        tools:layout="@layout/fragment_dash_board_home" >
+        <action
+            android:id="@+id/action_dashBoardHomeFragment_to_restaurantDetailsFragment"
+            app:destination="@id/restaurantDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantDetailsFragment"
+        android:name="com.example.restaurant.RestaurantDetailsFragment"
+        android:label="fragment_restaurant_details"
+        tools:layout="@layout/fragment_restaurant_details" >
+        <action
+            android:id="@+id/action_restaurantDetailsFragment_to_dashBoardHomeFragment"
+            app:destination="@id/dashBoardHomeFragment" />
+    </fragment>
 </navigation>
