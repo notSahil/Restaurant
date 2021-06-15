@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tvRestaurantDetails"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RestaurantDetailsFragment">
+    tools:context=".LogoutPageFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/tvrestaurantFragment"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="Restaurant Fragment" />
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LogOutPage" />
 
 </FrameLayout>
